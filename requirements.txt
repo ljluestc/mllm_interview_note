@@ -1,0 +1,13 @@
+# Core dependencies for RAG system
+numpy>=1.24.0
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Optional: FAISS for fast vector search
+faiss-cpu>=1.7.4  # Use faiss-gpu if CUDA available
+
+# Optional: Advanced reranking
+# transformers>=4.30.0
+
+# Development dependencies
+tqdm>=4.65.0
